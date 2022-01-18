@@ -1,0 +1,12 @@
+{% extends 'navs/base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated and user.is_staff and user.is_superuser %}
+{% include 'navs/topnav.html' %}
+
+{% else %}
+{% include 'pharm/customer_index.html' %}
+{% endif%}
+
+{% endblock %}

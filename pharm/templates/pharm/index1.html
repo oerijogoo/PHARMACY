@@ -1,0 +1,499 @@
+
+{% load crispy_forms_tags %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HOME</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/static/img/1.jpg" rel="icon">
+  <link href="/static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/static/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="/static/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/css/style.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="/static/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="/static/css/style3.css" />
+		<script type="text/javascript" src="/static/js/modernizr.custom.86080.js"></script>
+
+</head>
+
+  <!-- ======= Header ======= -->
+  <header id="header1" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="#">RONEX</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="/static/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Products</a></li>
+          <li class="drop-down"><a href="">Apps</a>
+            <ul>
+              <li><a href="{% url 'dashboard-index' %}">Inventory</a></li>
+              <li class="drop-down"><a href="#">Others</a>
+                <ul>
+                  <li><a href="#">Library</a></li>
+                  <li><a href="#">Clinic</a></li>
+                  <li><a href="#">Blog</a></li>
+
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <body id="page">
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3>WEB DESIGNS</h3></div></li>
+            <li><span>Image 02</span><div><h3>GRAPHIC DESIGN</h3></div></li>
+            <li><span>Image 03</span><div><h3>COMP MAINTENANCE</h3></div></li>
+            <li><span>Image 04</span><div><h3>COMPUTER PACKAGES</h3></div></li>
+            <li><span>Image 05</span><div><h3>PHONE/ COMPUTER SOFTWARE UPGRDING></h3></div></li>
+            <li><span>Image 06</span><div><h3>ACCESSORIES</h3></div></li>
+        </ul>
+        <div class="container1">
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+
+
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header>
+                <h1>Welcome <span>Our Customers</span></h1>
+                <h2>This Is Your Destiny</h2>
+
+				</p>
+            </header>
+        </div>
+
+
+  <!-- ======= Hero Section ======= -->
+
+
+  <main id="main">
+<section>
+    <!-- ======= About Section ======= -->
+    <section1 id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+            <img src="/static/elect/rooters.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">About Us</h3>
+            <p data-aos="fade-up">
+              We are A Team of experts in various Fields From Computer Hardware To Computer software.
+            </p>
+            <div class="icon-box" data-aos="fade-up">
+              <i class="bx bx-radar"></i>
+              <h4>Software installatio</h4>
+              <p>System and application software both in phones and Computers</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-data"></i>
+              <h4>Hardware</h4>
+              <p>Repair and Mantainance</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-microchip"></i>
+              <h4>Graphic Design/website design</h4>
+              <p>Excellent graphic and website designs</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section1><!-- End About Section -->
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section1 id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                  <h4>Online</h4>
+                  <p>KRA, KUCCPS, NTSA, TSC, .</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">
+                  <h4>Offline</h4>
+                  <p>Photocopy, Scanning, Lamination</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">
+                  <h4>Computer/Phone</h4>
+                  <p>Comp/Phone repair</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">
+                  <h4>Website/ Graphic Design</h4>
+                  <p>We create stunning websites</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-7 ml-auto" data-aos="fade-left">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <figure>
+                  <img src="/static/img/online.png" alt="" class="img-fluid">
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <figure>
+                  <img src="/static/img/photo.png" alt="" class="img-fluid">
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <figure>
+                  <img src="/static/img/phone.png" alt="" class="img-fluid">
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <figure>
+                  <img src="/static/img/features-4.png" alt="" class="img-fluid">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section1><!-- End Features Section -->
+
+
+
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section1 id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+         <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter=".#">OUR PRODUCTS</li>
+
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/laptop1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/laptop1.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/maouse.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/maouse.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/keyboards.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/harddisk casings.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/hdme668.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/power cables.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/laptop charger.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/rooter.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/harddisk casings.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/laptop2.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/memory cards.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/laptop2.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/ram.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/laptop2.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/static/elect/vga.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="/static/elect/laptop2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section1><!-- End Portfolio Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section1 id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title justify-content-center" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us Through.</p>
+        </div>
+
+        <div class="row no-gutters justify-content-center" data-aos="fade-up">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Kericho</p>
+              </div>
+
+              <div class="email mt-4">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>designs@experts.com</p>
+              </div>
+
+              <div class="phone mt-4">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+254 000 000 000</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7497336349884!2d35.32124069972205!3d-0.3359554354197899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a5bcab8f9feb7%3A0xb8c787aa227deb55!2sBROOKE%20CENTER!5e0!3m2!1sen!2ske!4v1634214861248!5m2!1sen!2ske" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Design</h3>
+              <p>
+                Brooke <br>
+                Kericho, Kenya<br><br>
+                <strong>Phone:</strong> +254 000 000 000<br>
+                <strong>Email:</strong> designs@experts.com<br>
+              </p>
+
+
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Computer Accessories</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Computer Maintenance</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RONEX</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Designed by <a href="#">Ronald</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+</section>
+  <!-- Vendor JS Files -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="/static/vendor/php-email-form/validate.js"></script>
+  <script src="/static/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/vendor/venobox/venobox.min.js"></script>
+  <script src="/static/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>

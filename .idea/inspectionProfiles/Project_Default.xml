@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="2" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="3" class="java.lang.String" itemvalue="pycosat" />
+            <item index="4" class="java.lang.String" itemvalue="filters" />
+            <item index="5" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="6" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="7" class="java.lang.String" itemvalue="django-cart" />
+            <item index="8" class="java.lang.String" itemvalue="PySocks" />
+            <item index="9" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="10" class="java.lang.String" itemvalue="ruamel-yaml" />
+            <item index="11" class="java.lang.String" itemvalue="argon2-cffi" />
+            <item index="12" class="java.lang.String" itemvalue="django-allauth" />
+            <item index="13" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="14" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
